@@ -39,7 +39,7 @@ class Carousel extends StatefulWidget {
   final List<Widget> children;
 
   ///  callBack function on page Change
-  final onPageChange;
+  final OnPageChange onPageChange;
 
   /// Defines the Color of the active Indicator
   final Color activeIndicatorColor;
