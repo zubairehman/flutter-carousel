@@ -13,6 +13,7 @@ import 'package:flutter_multi_carousel/src/services/screen_ratio.dart';
 import 'package:flutter_multi_carousel/src/services/type_declaration.dart';
 
 typedef OnCarouselTap = Function(int);
+typedef OnPageChange = Function(int);
 
 class Carousel extends StatefulWidget {
   final dynamic type;
@@ -38,7 +39,7 @@ class Carousel extends StatefulWidget {
   final List<Widget> children;
 
   ///  callBack function on page Change
-  final onPageChange;
+  final OnPageChange onPageChange;
 
   /// Defines the Color of the active Indicator
   final Color activeIndicatorColor;
